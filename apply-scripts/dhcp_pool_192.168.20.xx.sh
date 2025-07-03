@@ -1,29 +1,30 @@
 # Добавление новых host_20_* записей
+# k8s dev cluster
 uci set dhcp.host_20_01=host
 uci set dhcp.host_20_01.name='k8s-dev-master-1'
 uci set dhcp.host_20_01.mac='00:00:00:00:20:01'
 uci set dhcp.host_20_01.ip='192.168.20.1'
-
 uci set dhcp.host_20_02=host
-uci set dhcp.host_20_02.name='host-20-02'
+uci set dhcp.host_20_02.name='k8s-dev-master-2'
 uci set dhcp.host_20_02.mac='00:00:00:00:20:02'
 uci set dhcp.host_20_02.ip='192.168.20.2'
 uci set dhcp.host_20_03=host
-uci set dhcp.host_20_03.name='host-20-03'
+uci set dhcp.host_20_03.name='k8s-dev-master-3'
 uci set dhcp.host_20_03.mac='00:00:00:00:20:03'
 uci set dhcp.host_20_03.ip='192.168.20.3'
 uci set dhcp.host_20_04=host
-uci set dhcp.host_20_04.name='host-20-04'
+uci set dhcp.host_20_04.name='k8s-dev-worker-1'
 uci set dhcp.host_20_04.mac='00:00:00:00:20:04'
 uci set dhcp.host_20_04.ip='192.168.20.4'
 uci set dhcp.host_20_05=host
-uci set dhcp.host_20_05.name='host-20-05'
+uci set dhcp.host_20_05.name='k8s-dev-worker-2'
 uci set dhcp.host_20_05.mac='00:00:00:00:20:05'
 uci set dhcp.host_20_05.ip='192.168.20.5'
 uci set dhcp.host_20_06=host
-uci set dhcp.host_20_06.name='host-20-06'
+uci set dhcp.host_20_06.name='k8s-dev-worker-3'
 uci set dhcp.host_20_06.mac='00:00:00:00:20:06'
 uci set dhcp.host_20_06.ip='192.168.20.6'
+##
 uci set dhcp.host_20_07=host
 uci set dhcp.host_20_07.name='host-20-07'
 uci set dhcp.host_20_07.mac='00:00:00:00:20:07'
