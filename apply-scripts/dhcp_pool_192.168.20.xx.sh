@@ -21,9 +21,12 @@ uci set dhcp.host_20_05.name='k8s-dev-worker-2'
 uci set dhcp.host_20_05.mac='00:00:00:00:20:05'
 uci set dhcp.host_20_05.ip='192.168.20.5'
 uci set dhcp.host_20_06=host
-uci set dhcp.host_20_06.name='k8s-dev-worker-3'
+uci set dhcp.host_20_06.name='k8s-dev-worker-4'
 uci set dhcp.host_20_06.mac='00:00:00:00:20:06'
 uci set dhcp.host_20_06.ip='192.168.20.6'
+uci commit dhcp
+
+# Other
 uci set dhcp.host_20_07=host
 uci set dhcp.host_20_07.name='host-20-07'
 uci set dhcp.host_20_07.mac='00:00:00:00:20:07'
