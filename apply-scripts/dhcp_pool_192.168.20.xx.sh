@@ -1,8 +1,9 @@
 # Добавление новых host_20_* записей
 uci set dhcp.host_20_01=host
-uci set dhcp.host_20_01.name='host-20-01'
+uci set dhcp.host_20_01.name='k8s-dev-master-1'
 uci set dhcp.host_20_01.mac='00:00:00:00:20:01'
 uci set dhcp.host_20_01.ip='192.168.20.1'
+
 uci set dhcp.host_20_02=host
 uci set dhcp.host_20_02.name='host-20-02'
 uci set dhcp.host_20_02.mac='00:00:00:00:20:02'
